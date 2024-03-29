@@ -1,0 +1,42 @@
+h1{
+    color: rgb(162, 116, 206);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color: rgb(171, 141, 200);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(104, 84, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    color: rgb(139, 99, 177);
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Student{
+    color: #ac7dd7;
+}
+ins{
+    color: rgb(126, 93, 157);
+}
+a{
+    font-size:smaller;
+    color:#c89eed;
+}
+
+.ye{
+    color: #b190cf;
+    text-align:left;
+}
+.si{
+    color:#c89eed;
+}
+.socials{
+    font-size: smaller;
+    color:#ffffff;
+    background-color: #b190cf;
+    padding: 5px;
+    border-radius:7px;
+}
