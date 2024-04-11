@@ -24,6 +24,7 @@ ins{
 a{
     font-size:smaller;
     color:#c89eed;
+    text-decoration: none;
 }
 
 .ye{
@@ -41,6 +42,10 @@ a{
     border-radius:7px;
 }
 
-a:hover{
+.socials:hover{
     font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+   text-decoration: underline; 
 }
