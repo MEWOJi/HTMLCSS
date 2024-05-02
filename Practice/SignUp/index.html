@@ -3,6 +3,19 @@
   <head>
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+      function showPassword() {
+          var passwordInput = document.getElementById("Psswrd");
+          
+          // Change input type to text
+          passwordInput.type = "text";
+
+          // Revert back to password type after 2000 milliseconds (2 seconds)
+          setTimeout(function(){
+              passwordInput.type = "password";
+          }, 5000);
+      }
+  </script>
   </head>
   <body>
     <div class="signupform">
@@ -16,10 +29,36 @@
           <input class="inputBox" type="text" id="Usrnme" name="Usrnme" placeholder="a">
           <label class="inputLabel" for="Usrnme">Username:</label>
         </div>
-        <div>
+        <div class="inputContainer">
+          <input class="inputBox" type="text" id="Psswrd" name="UPsswrd" placeholder="a" oninput="showPassword()">
+          <label class="inputLabel" for="Psswrd">Password:</label>
+        </div>
+        <!-- <div>
           <label for="Psswrd">Password:</label>
           <input type="text" id="Psswrd" name="Psswrd">
-        </div>
+        </div> -->
+
+
+
+
+        <!-- <form>
+          <label>
+              <input type="radio" name="gender" value="male">
+              Male
+          </label>
+          <br>
+          <label>
+              <input type="radio" name="gender" value="female">
+              Female
+          </label>
+          <br>
+          <label>
+              <input type="radio" name="gender" value="other">
+              Other
+          </label>
+      </form> -->
+      
+
         <p><a href="nextPage"> Sign up</a></p>
       </form>
     </div>
