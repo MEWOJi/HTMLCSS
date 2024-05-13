@@ -1,0 +1,50 @@
+
+
+.bgImage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(poutinee.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+}
+.overlay::after {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black overlay */
+    z-index: -2; /* Place the pseudo-element behind the content */
+}
+
+h1{
+    margin-left: 10px;
+
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: #ffffff;
+}
+.ttl::first-letter{
+    color: rgb(174, 0, 255);
+}
+
+.price{
+    margin-left:170px;
+}
+/* .price::first-letter{
+    color: rgb(174, 0, 255);
+} */
