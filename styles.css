@@ -49,3 +49,9 @@ a{
 a:hover{
    text-decoration: underline; 
 }
+.bg-purp{
+    background-color: #c0a3e3
+}
+.text-purp{
+    color: #6d538c;
+}
