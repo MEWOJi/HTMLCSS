@@ -55,3 +55,7 @@ a:hover{
 .text-purp{
     color: #6d538c;
 }
+.bg-secondary-subtle{
+    opacity: 0.5;
+    
+}
