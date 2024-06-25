@@ -11,9 +11,15 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h4{
-    color: rgb(139, 99, 177);
+    color: rgb(255, 255, 255);
     font-size: large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #b89ccb url(purple-ribbon.jpeg) right center;
+    padding: 5px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-left: -7px;
+   
 }
 .Student{
     color: #ac7dd7;
@@ -55,7 +61,24 @@ a:hover{
 .text-purp{
     color: #6d538c;
 }
-.bg-secondary-subtle{
-    opacity: 0.5;
-    
+.bg-dark{
+    opacity: 0.7;
+    width: 100%;
+    height: 150px;
+    left: 0%;
+    right: 0%;
+    bottom: 0rem;
+}
+.caption-text-color{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.carousel-item .carousel-caption{
+    display: none;
+}
+
+.carousel-item:hover .carousel-caption{
+    display: block;
 }
